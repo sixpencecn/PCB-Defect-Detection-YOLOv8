@@ -1,0 +1,40 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>工业质检为什么需要自动缺陷检测</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>PCB 缺陷尺度小、纹理复杂，人工目检稳定性随作业时间下降；目标检测将判断转化为可复现的推理流程。</Text>
+    <Box style={{ height: 396, flexDirection: 'row', gap: 32 }}>
+      <Box style={{ width: 564, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '24px 28px', flexDirection: 'column', gap: 18 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+          <Box style={{ width: 48, height: 48, background: '#E8EFF8', justifyContent: 'center', alignItems: 'center' }}>
+            <FAIcon name="eye" style={{ fill: '#1E4FA8', width: 26, height: 26 }} />
+          </Box>
+          <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#0E3F8C' }}>传统人工目检</Text>
+        </Box>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.55 }}>依赖检验员经验与状态，长时间作业后注意力下降，微小开路、针孔容易漏检。不同班次判定尺度不一，缺少可追溯的量化记录，问题回溯困难。</Text>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.55 }}>单板逐一目视成本高，产线节拍受人力限制；缺陷统计需要人工二次录入，数据难以直接用于工艺改进与良率分析。</Text>
+        <Text style={{ fontSize: 18, color: '#D9534F', fontWeight: 'bold', marginTop: 'auto' }}>核心矛盾：效率、稳定性、一致性难以同时保证</Text>
+      </Box>
+      <Box style={{ width: 564, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '24px 28px', flexDirection: 'column', gap: 18 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+          <Box style={{ width: 48, height: 48, background: '#E8EFF8', justifyContent: 'center', alignItems: 'center' }}>
+            <FAIcon name="check-circle" style={{ fill: '#1E4FA8', width: 26, height: 26 }} />
+          </Box>
+          <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#0E3F8C' }}>YOLOv8 自动检测</Text>
+        </Box>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.55 }}>模型一次前向推理即可定位多类缺陷并输出类别、置信度与坐标，判定标准由权重与阈值固定，不受人员状态影响，结果可复现、可追溯。</Text>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.55 }}>配合批量导入、检测框标注与 Excel 报表，形成“图像输入—判定—统计—归档”的闭环，直接对接工业视觉质检实训业务流程。</Text>
+        <Text style={{ fontSize: 18, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>直接价值：降低漏检、统一尺度、沉淀质量数据</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 66, background: '#1E4FA8', padding: '0px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 21, color: '#FFFFFF', fontWeight: 'bold' }}>结论：用开源数据集 + 成熟检测框架构建可复现的自动化质检系统，具备毕设展示与企业实训双重价值</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>04</Text>
+  </Box>
+</Slide>

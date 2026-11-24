@@ -1,0 +1,24 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 12, width: '100%', background: '#1E4FA8' }} />
+  <Box style={{ height: 708, width: '100%', flexDirection: 'row' }}>
+    <Box style={{ width: 690, padding: '86px 20px 56px 72px', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <Box style={{ flexDirection: 'column', gap: 22 }}>
+        <Text style={{ fontSize: 16, color: '#3D7BD9', letterSpacing: 3, fontWeight: 'bold' }}>毕业设计 · 工业视觉检测</Text>
+        <Text style={{ fontSize: 60, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.18 }}>PCB 电路板<br />缺陷检测系统</Text>
+        <Text style={{ fontSize: 26, color: '#4A5568', lineHeight: 1.35 }}>PCB Defect Detection System<br />Based on YOLOv8</Text>
+      </Box>
+      <Box style={{ flexDirection: 'column', gap: 12 }}>
+        <Box style={{ height: 2, width: 420, background: '#1E4FA8' }} />
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.5 }}>基于 YOLOv8 深度学习算法与 DeepPCB 开源数据集</Text>
+        <Text style={{ fontSize: 16, color: '#8B97A8', lineHeight: 1.5 }}>六类工业标准缺陷 · 批量推理 · 可视化界面 · Excel 质检报表</Text>
+        <Text style={{ fontSize: 15, color: '#4A5568' }}>汇报人：六便士　　时间：2026 年 11 月</Text>
+      </Box>
+    </Box>
+    <Box style={{ width: 590, padding: '92px 60px 56px 0', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end' }}>
+      <Box style={{ background: '#F0F5FC', padding: 16, border: '1px solid #D6DCE5' }}>
+        <Image src="assets/detect_short.jpg" style={{ width: 470, height: 470, objectFit: 'contain' }} />
+      </Box>
+      <Text style={{ fontSize: 14, color: '#8B97A8', marginTop: 12 }}>图 1　真实 PCB 图像的六类缺陷检测结果</Text>
+    </Box>
+  </Box>
+</Slide>

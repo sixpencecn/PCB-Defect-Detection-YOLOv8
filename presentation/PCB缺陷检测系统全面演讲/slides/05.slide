@@ -1,0 +1,57 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>研究目标与技术路线</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>目标：在 CPU 环境下完成可训练、可推理、可统计的六类 PCB 缺陷检测系统，并产出可复现的实验数据。</Text>
+    <Box style={{ height: 228, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 208, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '18px 16px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>01</Text>
+        <FAIcon name="folder" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>图像采集</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>本地批量导入，模拟产线相机输入</Text>
+      </Box>
+      <Box style={{ width: 208, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '18px 16px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>02</Text>
+        <FAIcon name="wrench" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>预处理</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>ROI、降噪、均衡、归一化四步</Text>
+      </Box>
+      <Box style={{ width: 208, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '18px 16px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>03</Text>
+        <FAIcon name="clipboard" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>数据集构建</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>标注校验、增强、训练/验证/测试划分</Text>
+      </Box>
+      <Box style={{ width: 208, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '18px 16px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>04</Text>
+        <FAIcon name="cog" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>训练与调优</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>迁移学习、超参数与阈值对比</Text>
+      </Box>
+      <Box style={{ width: 208, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '18px 16px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>05</Text>
+        <FAIcon name="chart-bar" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>推理与统计</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>画框判定、OK/NG、Excel 报表</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 244, flexDirection: 'row', gap: 32 }}>
+      <Box style={{ width: 564, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '22px 28px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0E3F8C' }}>研究目标</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.55 }}>识别六类工业标准缺陷，输出类别、置信度与位置框，自动判定良品/不良品。</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.55 }}>全流程在本地 CPU 完成，代码、数据集与权重可复现，适合毕设展示与实训教学。</Text>
+      </Box>
+      <Box style={{ width: 564, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '22px 28px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0E3F8C' }}>交付成果</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.55 }}>交付训练脚本与权重、YOLO 数据集、阈值对比数据、PyQt5 程序、Excel 报表与实验曲线。</Text>
+        <Text style={{ fontSize: 19, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>一条从数据到报表闭环的完整工程链路</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>05</Text>
+  </Box>
+</Slide>

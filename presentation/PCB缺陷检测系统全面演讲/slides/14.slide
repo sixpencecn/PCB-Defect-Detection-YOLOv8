@@ -1,0 +1,31 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>六类缺陷 PR 曲线与差异化表现</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Box style={{ height: 470, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 700, height: 470, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: 8, justifyContent: 'center', alignItems: 'center' }}>
+        <Image src="assets/curve_pr.png" style={{ width: 680, height: 453, objectFit: 'contain' }} />
+      </Box>
+      <Box style={{ width: 436, height: 470, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 24px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>六类缺陷的检出难度差异有多大？</Text>
+        <Text style={{ fontSize: 16, color: '#8B97A8', lineHeight: 1.45 }}>下图为验证集 PR 曲线，图例给出各类别 AP 与总体 mAP50（0.866），与测试集指标口径不同。</Text>
+        <Box style={{ height: 1, background: '#D6DCE5', width: '100%' }} />
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>伪铜　0.963　　针孔　0.945</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>开路　0.934　　短路　0.852</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>毛刺　0.770　　鼠咬　0.734</Text>
+        <Box style={{ height: 1, background: '#D6DCE5', width: '100%' }} />
+        <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.55 }}>伪铜与针孔形态规则、对比明显，因而 AP 领先；毛刺与鼠咬边缘细碎、与线路纹理相近，是后续重点优化对象。</Text>
+        <Text style={{ fontSize: 17, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>优化方向：更高分辨率输入 + 针对小目标的数据增强</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 48, background: '#E8EFF8', padding: '0px 24px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 17, color: '#0E3F8C', fontWeight: 'bold' }}>结论：总体检出能力已满足演示需求，类别不均衡可通过提升 imgsz 与针对性增强继续改善。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>14</Text>
+  </Box>
+</Slide>

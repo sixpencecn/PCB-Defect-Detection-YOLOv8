@@ -1,0 +1,44 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>四步预处理流水线</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>针对光照不均、蚀刻纹理干扰与成像噪点，构建可开关的四步预处理流程，并在界面中提供启用选项。</Text>
+    <Box style={{ height: 300, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 272, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '20px 20px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>01</Text>
+        <FAIcon name="crop" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>ROI 有效区域裁剪</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>基于最大前景轮廓定位电路板区域，保留 3% 边距，防止边缘缺陷被裁掉。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '20px 20px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>02</Text>
+        <FAIcon name="filter" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>高斯滤波降噪</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>抑制细小噪点与压缩伪影，降低纹理背景对缺陷边缘的干扰。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '20px 20px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>03</Text>
+        <FAIcon name="sun" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>亮度对比度均衡</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>LAB 空间 CLAHE 局部对比度增强，改善板面反光与光照不均。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '20px 20px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>04</Text>
+        <FAIcon name="expand" style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>尺寸归一化</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>等比缩放并补边至模型输入尺寸，保持缺陷比例不变形。</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 172, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '18px 28px', flexDirection: 'column', gap: 12 }}>
+      <Text style={{ fontSize: 23, fontWeight: 'bold', color: '#0E3F8C' }}>工程修正：ROI 裁剪阈值必须适配 DeepPCB 成像</Text>
+      <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.55 }}>初版按前景面积阈值裁剪，会把整板误判为线路窄条。改为以最大轮廓为基准并保留 3% 边距后，ROI 输出恢复为完整板面；界面同时提供“启用预处理”开关，便于对照实验与消融分析。</Text>
+      <Text style={{ fontSize: 18, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>结论：预处理是稳定输入的前提，但必须以真实图像验证，不能只依赖通用阈值</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>09</Text>
+  </Box>
+</Slide>

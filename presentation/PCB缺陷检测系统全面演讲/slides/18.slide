@@ -1,0 +1,30 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>真实检测效果展示</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>以下为模型在独立测试图上的实际输出：同一块板可同时定位多类缺陷，中文标签与置信度直接显示在框上方。</Text>
+    <Box style={{ height: 420, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 568, height: 420, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: 8, flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0E3F8C' }}>样例 A　多类缺陷同板检测</Text>
+        <Box style={{ height: 380, justifyContent: 'center', alignItems: 'center' }}>
+          <Image src="assets/detect_mousebite.jpg" style={{ width: 380, height: 380, objectFit: 'contain' }} />
+        </Box>
+      </Box>
+      <Box style={{ width: 568, height: 420, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: 8, flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0E3F8C' }}>样例 B　伪铜与毛刺的局部定位</Text>
+        <Box style={{ height: 380, justifyContent: 'center', alignItems: 'center' }}>
+          <Image src="assets/detect_copper.jpg" style={{ width: 380, height: 380, objectFit: 'contain' }} />
+        </Box>
+      </Box>
+    </Box>
+    <Box style={{ height: 52, background: '#E8EFF8', padding: '0px 24px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 17, color: '#0E3F8C', fontWeight: 'bold' }}>判断：检测结果可直接支撑 OK/NG 判定；细小缺陷的高置信度输出说明模型已学到可辨识的蚀刻纹理差异。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>18</Text>
+  </Box>
+</Slide>

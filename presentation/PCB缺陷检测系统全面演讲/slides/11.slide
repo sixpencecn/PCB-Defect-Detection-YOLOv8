@@ -1,0 +1,48 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>YOLOv8n 迁移训练配置</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>选用 YOLOv8n 轻量模型加载官方预训练权重，在自建数据集上迁移训练；输入分辨率与批次按 CPU 训练预算确定。</Text>
+    <Box style={{ height: 120, flexDirection: 'row', gap: 16 }}>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>30</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>训练轮次 epochs</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>16</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>批次大小 batch</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>320</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>输入尺寸 imgsz</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>8</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>CPU 线程 threads</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 280, flexDirection: 'row', gap: 32 }}>
+      <Box style={{ width: 564, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 28px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0E3F8C' }}>关键超参数</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.5 }}>初始学习率 lr0 = 0.01；mosaic 数据增强概率 0.2；早停耐心值 patience = 12；验证周期随训练同步执行。</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.5 }}>训练在 CPU 上完成，约 18 分钟；早停机制在指标不再改善时终止训练，避免无效迭代。</Text>
+        <Text style={{ fontSize: 18, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>权重产出：models/pcb_yolov8n/weights/best.pt</Text>
+      </Box>
+      <Box style={{ width: 564, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 28px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0E3F8C' }}>取舍与依据</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.5 }}>基准测试显示 480px 单轮约 2.5 分钟，320px + batch16 可在有限算力下完成多轮实验，便于开展阈值对比与消融。</Text>
+        <Text style={{ fontSize: 19, color: '#1A2230', lineHeight: 1.5 }}>如需更高精度，可将 imgsz 提升至 480/640 并增加轮次，代价是 CPU 训练时间显著增加。</Text>
+        <Text style={{ fontSize: 18, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>工程原则：先跑通闭环，再按算力预算换精度</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 60, background: '#E8EFF8', padding: '0px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 19, color: '#0E3F8C', fontWeight: 'bold', lineHeight: 1.4 }}>结论：轻量化模型 + 中等分辨率 + 早停，是在无 GPU 条件下兼顾实验完整性与训练效率的可行配置</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>11</Text>
+  </Box>
+</Slide>

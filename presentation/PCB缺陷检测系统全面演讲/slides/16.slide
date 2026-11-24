@@ -1,0 +1,52 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>系统架构与六大功能模块</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>系统由采集、预处理、数据集、训练调优、推理检测与统计报表六部分组成，各模块均可独立复用与替换。</Text>
+    <Box style={{ height: 396, flexDirection: 'column', gap: 24 }}>
+      <Box style={{ height: 186, flexDirection: 'row', gap: 25 }}>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="images" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>① 图像采集</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>本地图片批量导入，兼容工业相机标准成像与中文文件名路径。</Text>
+        </Box>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="wrench" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>② 图像预处理</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>ROI、降噪、CLAHE 与归一化，界面提供一键开关便于对照。</Text>
+        </Box>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="clipboard" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>③ 数据集构建</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>LabelImg 标注互转、多维增强、训练/验证/测试自动划分。</Text>
+        </Box>
+      </Box>
+      <Box style={{ height: 186, flexDirection: 'row', gap: 25 }}>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="cog" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>④ 训练与调优</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>YOLOv8n 迁移训练、超参数调整、阈值实验与指标曲线输出。</Text>
+        </Box>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="eye" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>⑤ 智能推理检测</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>类别、置信度、检测框与 OK/NG 判定，记录单张耗时。</Text>
+        </Box>
+        <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '16px 20px', flexDirection: 'column', gap: 10 }}>
+          <FAIcon name="chart-bar" style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+          <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>⑥ 统计与报表</Text>
+          <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>良品/不良品、六类频次、缺陷截图归档与 Excel 一键导出。</Text>
+        </Box>
+      </Box>
+    </Box>
+    <Box style={{ height: 76, background: '#1E4FA8', padding: '0px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 19, color: '#FFFFFF', fontWeight: 'bold', lineHeight: 1.4 }}>共享结论：六个模块串成“输入—处理—判定—统计—归档”的完整质检链路，界面只是这条链路的可视化入口</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>16</Text>
+  </Box>
+</Slide>

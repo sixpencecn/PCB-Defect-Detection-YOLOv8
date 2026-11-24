@@ -1,0 +1,48 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>目录</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB · PyQt5</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '26px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Box style={{ height: 104, flexDirection: 'row', alignItems: 'center', gap: 24, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '0px 28px' }}>
+      <Box style={{ width: 64, height: 64, background: '#1E4FA8', justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>01</Text>
+      </Box>
+      <Box style={{ flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0E3F8C' }}>研究背景与目标</Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>人工质检痛点、深度学习替代方案、五步技术路线</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 104, flexDirection: 'row', alignItems: 'center', gap: 24, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '0px 28px' }}>
+      <Box style={{ width: 64, height: 64, background: '#E8EFF8', justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>02</Text>
+      </Box>
+      <Box style={{ flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0E3F8C' }}>数据集与预处理</Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>DeepPCB 六类缺陷、每类 50 张选样、四步图像预处理</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 104, flexDirection: 'row', alignItems: 'center', gap: 24, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '0px 28px' }}>
+      <Box style={{ width: 64, height: 64, background: '#E8EFF8', justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>03</Text>
+      </Box>
+      <Box style={{ flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0E3F8C' }}>模型训练与实验</Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>YOLOv8n 迁移训练、收敛曲线、阈值对比与类别差异分析</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 104, flexDirection: 'row', alignItems: 'center', gap: 24, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '0px 28px' }}>
+      <Box style={{ width: 64, height: 64, background: '#E8EFF8', justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#1E4FA8' }}>04</Text>
+      </Box>
+      <Box style={{ flexDirection: 'column', gap: 8 }}>
+        <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0E3F8C' }}>系统实现与总结</Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>六大模块、PyQt5 交互界面、Excel 报表、检测效果与展望</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>02</Text>
+  </Box>
+</Slide>

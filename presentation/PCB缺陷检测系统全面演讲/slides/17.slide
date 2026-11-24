@@ -1,0 +1,59 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>PyQt5 界面与工业质检报表</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>桌面端采用左右分区布局：左侧看图像与结果，右侧看历史与统计；下方为界面结构示意（非软件截图）。</Text>
+    <Box style={{ height: 420, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 660, height: 420, background: '#FFFFFF', border: '2px solid #B9C6D8', padding: 10, flexDirection: 'column', gap: 8 }}>
+        <Box style={{ height: 32, background: '#1E4FA8', padding: '0px 10px', justifyContent: 'center' }}>
+          <Text style={{ fontSize: 13, color: '#FFFFFF' }}>PCB电路板缺陷检测系统 | YOLOv8 · 工业视觉质检</Text>
+        </Box>
+        <Box style={{ height: 40, flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+          <Box style={{ width: 118, height: 28, background: '#2F6FDB', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 12, color: '#FFFFFF' }}>上传图片(可多选)</Text></Box>
+          <Box style={{ width: 78, height: 28, background: '#FFFFFF', border: '1px solid #B9C6D8', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 12, color: '#1A2230' }}>一键检测</Text></Box>
+          <Box style={{ width: 112, height: 28, background: '#FFFFFF', border: '1px solid #B9C6D8', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 12, color: '#1A2230' }}>导出Excel报表</Text></Box>
+          <Box style={{ width: 78, height: 28, background: '#FFFFFF', border: '1px solid #B9C6D8', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 12, color: '#1A2230' }}>清空历史</Text></Box>
+          <Box style={{ width: 104, height: 28, background: '#F0F5FC', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 11, color: '#4A5568' }}>☑ 启用预处理</Text></Box>
+        </Box>
+        <Box style={{ height: 304, flexDirection: 'row', gap: 8 }}>
+          <Box style={{ width: 316, height: 304, border: '1px solid #D6DCE5', background: '#F7F9FC', padding: 8, flexDirection: 'column', gap: 8 }}>
+            <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 'bold' }}>图像与检测结果</Text>
+            <Box style={{ height: 122, background: '#FFFFFF', border: '1px dashed #B9C6D8', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 13, color: '#8B97A8' }}>原图预览</Text></Box>
+            <Box style={{ height: 122, background: '#FFFFFF', border: '1px dashed #B9C6D8', justifyContent: 'center', alignItems: 'center' }}><Text style={{ fontSize: 13, color: '#8B97A8' }}>检测结果图（带彩色框）</Text></Box>
+          </Box>
+          <Box style={{ width: 296, height: 304, flexDirection: 'column', gap: 8 }}>
+            <Box style={{ height: 178, border: '1px solid #D6DCE5', padding: 8, flexDirection: 'column', gap: 4 }}>
+              <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 'bold' }}>检测历史</Text>
+              <Text style={{ fontSize: 11, color: '#4A5568' }}>序号 | 时间 | 来源 | 判定 | 置信度 | 缺陷数 | 耗时(ms)</Text>
+              <Box style={{ height: 1, background: '#D6DCE5' }} />
+              <Text style={{ fontSize: 11, color: '#8B97A8' }}>点击历史行可回看对应标注图</Text>
+            </Box>
+            <Box style={{ height: 118, border: '1px solid #D6DCE5', padding: 8, flexDirection: 'column', gap: 6 }}>
+              <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 'bold' }}>质检统计</Text>
+              <Text style={{ fontSize: 11, color: '#4A5568' }}>良品 / 不良品 / 不良率 / 平均耗时</Text>
+              <Text style={{ fontSize: 11, color: '#4A5568' }}>六类缺陷出现次数矩阵</Text>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+      <Box style={{ width: 476, height: 420, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 24px', flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>界面功能要点</Text>
+        <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>· 支持多选图片批量导入，后台线程检测，界面不卡顿。</Text>
+        <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>· 左侧同步显示原图与带框结果图，中文类别标签与置信度清晰可读。</Text>
+        <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>· 历史表 7 列，点击任意行回看当时的标注图与判定结果。</Text>
+        <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>· 统计面板实时更新良品/不良品、六类缺陷频次与平均耗时。</Text>
+        <Text style={{ fontSize: 17, color: '#1A2230', lineHeight: 1.5 }}>· Excel 报表含检测明细、缺陷统计、质检汇总三张工作表。</Text>
+        <Text style={{ fontSize: 17, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>· 已修复 Qt 插件路径污染与中文路径读写问题</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 52, background: '#E8EFF8', padding: '0px 24px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 17, color: '#0E3F8C', fontWeight: 'bold' }}>结论：界面把模型输出转化为可操作的质检记录，满足批量检测、追溯与报表交付的实际流程。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>17</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,52 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>每类 50 张的样本构建与增强</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>按需求从官方训练集为六类缺陷各取 50 张并取并集，再用离线增强扩充训练样本，保证类别覆盖与数量平衡。</Text>
+    <Box style={{ height: 120, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 370, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '12px 24px', flexDirection: 'column', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>300 <span style={{ fontSize: 19, color: '#4A5568' }}>张</span></Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>基础训练集（每类 50 张并集）</Text>
+      </Box>
+      <Box style={{ width: 370, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '12px 24px', flexDirection: 'column', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>1500 <span style={{ fontSize: 19, color: '#4A5568' }}>张</span></Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>增强后训练集</Text>
+      </Box>
+      <Box style={{ width: 370, background: '#F0F5FC', border: '1px solid #D6DCE5', padding: '12px 24px', flexDirection: 'column', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8' }}>60 / 60 <span style={{ fontSize: 19, color: '#4A5568' }}>张</span></Text>
+        <Text style={{ fontSize: 18, color: '#4A5568' }}>独立验证集 / 测试集</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 240, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 272, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '18px 20px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>01</Text>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>标注读取</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>解析原始空格分隔标注，转换为 YOLO 归一化的中心点与宽高格式。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '18px 20px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>02</Text>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>随机翻转</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>水平/垂直镜像并同步平移标注框坐标，增强缺陷方向的多样性。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '18px 20px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>03</Text>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>亮度与噪声</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>扰动亮度、加入高斯噪声，模拟产线光照波动与相机成像噪声。</Text>
+      </Box>
+      <Box style={{ width: 272, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '18px 20px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#1E4FA8' }}>04</Text>
+        <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C' }}>缩放与划分</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>尺度缩放后按固定随机种子划分训练、验证与测试，防止数据泄漏。</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 96, background: '#E8EFF8', padding: '12px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 19, color: '#0E3F8C', lineHeight: 1.5, fontWeight: 'bold' }}>判断：每类 50 张保证六类均有学习样本；离线增强把小样本扩展到 1500 张，在 CPU 训练预算内兼顾类别覆盖与泛化能力。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>08</Text>
+  </Box>
+</Slide>

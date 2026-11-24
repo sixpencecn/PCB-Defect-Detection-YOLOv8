@@ -1,0 +1,77 @@
+=== boot pid=15512 ts=2026-11-24 18:48:06.414 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js create PCB缺陷检测系统全面演讲.pptx ===
+[2026-11-24 18:48:06.412] [INFO ] [pid=15512] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+=== boot pid=22852 ts=2026-11-24 18:49:13.322 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/01.slide --project-dir . ===
+[2026-11-24 18:49:13.320] [INFO ] [pid=22852] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:49:13.408] [INFO ] [pid=22852] [slide-version] fileId=620DA3C3 version=0 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=22700 ts=2026-11-24 18:49:27.311 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/02.slide --project-dir . ===
+[2026-11-24 18:49:27.308] [INFO ] [pid=22700] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:49:27.404] [INFO ] [pid=22700] [slide-version] fileId=620DA3C3 version=1 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=25056 ts=2026-11-24 18:49:43.427 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/03.slide --project-dir . ===
+[2026-11-24 18:49:43.424] [INFO ] [pid=25056] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:49:43.519] [INFO ] [pid=25056] [slide-version] fileId=620DA3C3 version=2 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=9176 ts=2026-11-24 18:50:02.319 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/04.slide --project-dir . ===
+[2026-11-24 18:50:02.317] [INFO ] [pid=9176] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:50:02.386] [INFO ] [pid=9176] [slide-version] fileId=620DA3C3 version=3 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=19720 ts=2026-11-24 18:50:38.870 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/04.slide --page-index 3 --project-dir . ===
+[2026-11-24 18:50:38.867] [INFO ] [pid=19720] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:50:38.973] [INFO ] [pid=19720] [slide-version] fileId=sid_mwuk version=0 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=12692 ts=2026-11-24 18:51:24.319 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/04.slide --page-index 3 --project-dir . ===
+[2026-11-24 18:51:24.317] [INFO ] [pid=12692] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:51:24.426] [INFO ] [pid=12692] [slide-version] fileId=sid_mwuk version=1 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=7400 ts=2026-11-24 18:52:44.779 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/05.slide --project-dir . ===
+[2026-11-24 18:52:44.777] [INFO ] [pid=7400] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:52:44.851] [INFO ] [pid=7400] [slide-version] fileId=sid_mwuk version=2 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=25300 ts=2026-11-24 18:52:58.694 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/06.slide --project-dir . ===
+[2026-11-24 18:52:58.691] [INFO ] [pid=25300] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:52:58.763] [INFO ] [pid=25300] [slide-version] fileId=sid_mwuk version=3 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=18592 ts=2026-11-24 18:53:13.495 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/07.slide --project-dir . ===
+[2026-11-24 18:53:13.492] [INFO ] [pid=18592] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:53:13.560] [INFO ] [pid=18592] [slide-version] fileId=sid_mwuk version=4 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=9696 ts=2026-11-24 18:53:25.284 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/08.slide --project-dir . ===
+[2026-11-24 18:53:25.281] [INFO ] [pid=9696] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:53:25.339] [INFO ] [pid=9696] [slide-version] fileId=sid_mwuk version=5 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=19504 ts=2026-11-24 18:53:36.759 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/09.slide --project-dir . ===
+[2026-11-24 18:53:36.757] [INFO ] [pid=19504] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:53:36.832] [INFO ] [pid=19504] [slide-version] fileId=sid_mwuk version=6 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=6096 ts=2026-11-24 18:54:06.034 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/05.slide --page-index 4 --project-dir . ===
+[2026-11-24 18:54:06.032] [INFO ] [pid=6096] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:54:06.090] [INFO ] [pid=6096] [slide-version] fileId=sid_mwuk version=7 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=22092 ts=2026-11-24 18:54:28.647 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/05.slide --page-index 4 --project-dir . ===
+[2026-11-24 18:54:28.641] [INFO ] [pid=22092] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:54:28.753] [INFO ] [pid=22092] [slide-version] fileId=sid_mwuk version=8 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=9104 ts=2026-11-24 18:55:55.303 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/10.slide --project-dir . ===
+[2026-11-24 18:55:55.300] [INFO ] [pid=9104] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:55:55.394] [INFO ] [pid=9104] [slide-version] fileId=sid_mwuk version=9 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=24252 ts=2026-11-24 18:56:12.770 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/11.slide --project-dir . ===
+[2026-11-24 18:56:12.767] [INFO ] [pid=24252] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:56:12.843] [INFO ] [pid=24252] [slide-version] fileId=sid_mwuk version=10 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=16696 ts=2026-11-24 18:56:26.148 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/12.slide --project-dir . ===
+[2026-11-24 18:56:26.144] [INFO ] [pid=16696] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:56:26.234] [INFO ] [pid=16696] [slide-version] fileId=sid_mwuk version=11 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=5172 ts=2026-11-24 18:56:41.082 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/13.slide --project-dir . ===
+[2026-11-24 18:56:41.080] [INFO ] [pid=5172] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:56:41.133] [INFO ] [pid=5172] [slide-version] fileId=sid_mwuk version=12 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=18732 ts=2026-11-24 18:56:55.489 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/14.slide --project-dir . ===
+[2026-11-24 18:56:55.487] [INFO ] [pid=18732] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:56:55.569] [INFO ] [pid=18732] [slide-version] fileId=sid_mwuk version=13 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=18700 ts=2026-11-24 18:57:27.341 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/11.slide --page-index 10 --project-dir . ===
+[2026-11-24 18:57:27.338] [INFO ] [pid=18700] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:57:27.414] [INFO ] [pid=18700] [slide-version] fileId=sid_mwuk version=14 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=18940 ts=2026-11-24 18:58:50.293 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/15.slide --project-dir . ===
+[2026-11-24 18:58:50.291] [INFO ] [pid=18940] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:58:50.344] [INFO ] [pid=18940] [slide-version] fileId=sid_mwuk version=15 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=2432 ts=2026-11-24 18:59:01.325 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/16.slide --project-dir . ===
+[2026-11-24 18:59:01.322] [INFO ] [pid=2432] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:59:01.382] [INFO ] [pid=2432] [slide-version] fileId=sid_mwuk version=16 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=20912 ts=2026-11-24 18:59:17.325 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/17.slide --project-dir . ===
+[2026-11-24 18:59:17.321] [INFO ] [pid=20912] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:59:17.387] [INFO ] [pid=20912] [slide-version] fileId=sid_mwuk version=17 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=25564 ts=2026-11-24 18:59:31.227 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/18.slide --project-dir . ===
+[2026-11-24 18:59:31.226] [INFO ] [pid=25564] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:59:31.349] [INFO ] [pid=25564] [slide-version] fileId=sid_mwuk version=18 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=16184 ts=2026-11-24 18:59:47.190 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/19.slide --project-dir . ===
+[2026-11-24 18:59:47.188] [INFO ] [pid=16184] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 18:59:47.249] [INFO ] [pid=16184] [slide-version] fileId=sid_mwuk version=19 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx
+=== boot pid=11288 ts=2026-11-24 19:00:03.958 cwd=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲 argv=C:\Users\杨琦\.workbuddy\binaries\node\versions\22.22.2-6\node_modules\@tencent\slidep\dist\index.js upsert-dsl PCB缺陷检测系统全面演讲.pptx --dsl-file slides/20.slide --project-dir . ===
+[2026-11-24 19:00:03.955] [INFO ] [pid=11288] [server-url] baseUrl=http://127.0.0.1:39099 source=env
+[2026-11-24 19:00:04.015] [INFO ] [pid=11288] [slide-version] fileId=sid_mwuk version=20 filePath=D:\WorkBuddy\2026-11-24-17-31-47\presentation\PCB缺陷检测系统全面演讲\PCB缺陷检测系统全面演讲.pptx

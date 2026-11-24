@@ -1,0 +1,6 @@
+<Slide style={{ width: 1280, height: 720, background: '#0E3F8C', padding: 0, flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+  <Box style={{ height: 6, width: 160, background: '#FFFFFF' }} />
+  <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#FFFFFF', marginTop: 44 }}>感谢各位老师与同学</Text>
+  <Text style={{ fontSize: 30, color: '#D9E6F7', marginTop: 24 }}>敬请批评指正</Text>
+  <Text style={{ fontSize: 18, color: '#A9C4E8', marginTop: 72 }}>PCB 电路板缺陷检测系统 · 基于 YOLOv8 与 DeepPCB 开源数据集</Text>
+</Slide>

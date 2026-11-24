@@ -1,0 +1,16 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'row' }}>
+  <Box style={{ width: 520, height: '100%', background: '#F0F5FC', justifyContent: 'center', alignItems: 'center' }}>
+    <Text style={{ fontSize: 260, fontWeight: 'bold', color: '#D6E4F5', lineHeight: 1 }}>03</Text>
+  </Box>
+  <Box style={{ width: 760, height: '100%', padding: '120px 72px 80px 64px', flexDirection: 'column', justifyContent: 'center', gap: 30 }}>
+    <Text style={{ fontSize: 18, color: '#3D7BD9', letterSpacing: 4, fontWeight: 'bold' }}>CHAPTER THREE</Text>
+    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.2 }}>模型训练与实验</Text>
+    <Box style={{ height: 2, width: 320, background: '#1E4FA8' }} />
+    <Text style={{ fontSize: 22, color: '#4A5568', lineHeight: 1.6 }}>在 CPU 算力约束下完成 YOLOv8n 迁移训练，用真实测试集指标与阈值实验支撑论文分析。</Text>
+    <Box style={{ flexDirection: 'column', gap: 14, marginTop: 12 }}>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· 训练配置与超参数设置</Text>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· 收敛曲线与量化指标</Text>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· 置信度 / IOU 阈值对比与类别差异</Text>
+    </Box>
+  </Box>
+</Slide>

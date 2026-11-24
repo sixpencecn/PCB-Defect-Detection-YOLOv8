@@ -1,0 +1,36 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>训练收敛过程与曲线解读</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>下图为 Ultralytics 训练过程记录的真实曲线：上排为训练集损失与指标，下排为验证集损失与指标。</Text>
+    <Box style={{ height: 400, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 800, height: 400, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: 8, justifyContent: 'center', alignItems: 'center' }}>
+        <Image src="assets/curve_results.png" style={{ width: 780, height: 384, objectFit: 'contain' }} />
+      </Box>
+      <Box style={{ width: 336, height: 400, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 22px', flexDirection: 'column', gap: 16 }}>
+        <Text style={{ fontSize: 23, fontWeight: 'bold', color: '#0E3F8C' }}>曲线给出的三个信号</Text>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+          <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1E4FA8' }}>损失稳定下降</Text>
+          <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>box/cls/dfl 三类损失在前 10 轮快速下降，之后趋于平缓。</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+          <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1E4FA8' }}>指标同步上升</Text>
+          <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>precision 与 recall 持续提升，mAP50 在 20 轮后进入平台期。</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+          <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1E4FA8' }}>早停有依据</Text>
+          <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.5 }}>验证损失波动但无持续改善，早停机制据此终止冗余迭代。</Text>
+        </Box>
+      </Box>
+    </Box>
+    <Box style={{ height: 72, background: '#E8EFF8', padding: '10px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 18, color: '#0E3F8C', fontWeight: 'bold', lineHeight: 1.4 }}>判断：模型已充分学习六类缺陷特征；验证 mAP50 收敛在 0.87 附近，继续增加轮次的边际收益有限。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>12</Text>
+  </Box>
+</Slide>

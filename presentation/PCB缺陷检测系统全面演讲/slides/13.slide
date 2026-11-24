@@ -1,0 +1,68 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>量化指标与置信度阈值实验</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>在独立测试集上评估最终模型，并固定 IOU=0.45 对比不同置信度阈值的精确率与召回率。</Text>
+    <Box style={{ height: 100, flexDirection: 'row', gap: 16 }}>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1E4FA8' }}>0.893</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>精确率 Precision</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1E4FA8' }}>0.783</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>召回率 Recall</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1E4FA8' }}>0.876</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>mAP50</Text>
+      </Box>
+      <Box style={{ width: 278, background: '#F0F5FC', border: '1px solid #D6DCE5', justifyContent: 'center', padding: '0px 20px' }}>
+        <Text style={{ fontSize: 40, fontWeight: 'bold', color: '#1E4FA8' }}>0.602</Text>
+        <Text style={{ fontSize: 17, color: '#4A5568' }}>mAP50-95</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 372, flexDirection: 'row', gap: 24 }}>
+      <Box style={{ width: 556, height: 372, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: 12 }}>
+        <Table
+          style={{ width: '100%', height: '100%' }}
+          defaultTextStyle={{ fontSize: 17, textAlign: 'center', color: '#1A2230' }}
+          defaultCellStyle={{ border: { left: { width: 1, color: '#E5E7EB' }, right: { width: 1, color: '#E5E7EB' }, top: { width: 1, color: '#E5E7EB' }, bottom: { width: 1, color: '#E5E7EB' } } }}
+          cells={[
+            [{ text: '置信度', textStyle: { bold: true, color: '#FFFFFF', fontSize: 17 }, cellStyle: { background: { color: '#1E4FA8' } } }, { text: '精确率', textStyle: { bold: true, color: '#FFFFFF', fontSize: 17 }, cellStyle: { background: { color: '#1E4FA8' } } }, { text: '召回率', textStyle: { bold: true, color: '#FFFFFF', fontSize: 17 }, cellStyle: { background: { color: '#1E4FA8' } } }, { text: 'mAP50', textStyle: { bold: true, color: '#FFFFFF', fontSize: 17 }, cellStyle: { background: { color: '#1E4FA8' } } }],
+            ['0.25', '0.860', '0.818', '0.805'],
+            [{ text: '0.35', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.868', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.805', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.780', cellStyle: { background: { color: '#F7F9FC' } } }],
+            ['0.50', '0.927', '0.744', '0.723'],
+            [{ text: '0.65', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.959', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.589', cellStyle: { background: { color: '#F7F9FC' } } }, { text: '0.578', cellStyle: { background: { color: '#F7F9FC' } } }],
+          ]}
+        />
+      </Box>
+      <Box style={{ width: 580, height: 372, background: '#FFFFFF', border: '1px solid #D6DCE5' }}>
+        <Chart
+          style={{ width: '100%', height: 372 }}
+          chartType='lineChart'
+          title='置信度对精确率与召回率的影响'
+          titleColor='#1A2230'
+          showLegend={true}
+          showDataLabels={false}
+          legendColor='#4A5568'
+          axisColor='#8B97A8'
+          colors={['#1E4FA8', '#FFC107']}
+          background='#FFFFFF'
+          data={[
+            ['置信度', '精确率', '召回率'],
+            ['0.25', 0.86, 0.818],
+            ['0.35', 0.868, 0.805],
+            ['0.50', 0.927, 0.744],
+            ['0.65', 0.959, 0.589],
+          ]}
+        />
+      </Box>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>13</Text>
+  </Box>
+</Slide>

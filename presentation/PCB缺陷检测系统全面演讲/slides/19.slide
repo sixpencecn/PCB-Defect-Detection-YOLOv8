@@ -1,0 +1,36 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'column' }}>
+  <Box style={{ height: 72, width: '100%', background: '#1E4FA8', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '0px 60px' }}>
+    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#FFFFFF' }}>总结、局限与后续工作</Text>
+    <Text style={{ fontSize: 14, color: '#D9E6F7' }}>YOLOv8 · DeepPCB</Text>
+  </Box>
+  <Box style={{ height: 570, width: '100%', padding: '24px 60px 12px 60px', flexDirection: 'column', gap: 16 }}>
+    <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.5 }}>系统已完成从数据集构建到质检报表导出的完整闭环，并在独立测试集上给出可复现的量化结果。</Text>
+    <Box style={{ height: 380, flexDirection: 'row', gap: 25 }}>
+      <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '20px 22px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 23, fontWeight: 'bold', color: '#0E3F8C' }}>完成度</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>六类缺陷映射、每类 50 张选样、300→1500 张增强集、YOLOv8n CPU 训练、六模块 GUI、三工作表 Excel 报表均已交付。</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>启动脚本兼容 Qt 插件路径污染场景，图像读写兼容中文文件名。</Text>
+        <Text style={{ fontSize: 17, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>测试集 mAP50 = 0.876</Text>
+      </Box>
+      <Box style={{ width: 370, background: '#FFFFFF', border: '1px solid #D6DCE5', padding: '20px 22px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 23, fontWeight: 'bold', color: '#0E3F8C' }}>局限</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>CPU 训练采用 320px 输入，极小针孔与毛刺的定位精度受限；召回率 0.783 仍有提升空间。</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>鼠咬 AP 0.734、毛刺 AP 0.770，与复杂线路纹理混淆；数据集来自公开标准场景，未覆盖真实产线光照与遮挡。</Text>
+        <Text style={{ fontSize: 17, color: '#D9534F', fontWeight: 'bold', marginTop: 'auto' }}>阈值提高会降低召回，需按场景权衡</Text>
+      </Box>
+      <Box style={{ width: 370, background: '#F7F9FC', border: '1px solid #D6DCE5', padding: '20px 22px', flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 23, fontWeight: 'bold', color: '#0E3F8C' }}>后续工作</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>将 imgsz 提升至 480/640，结合小目标增强与更多真实样本，重点改善毛刺、鼠咬两类。</Text>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.55 }}>可接入工业相机 SDK、增加 defect 分级与 SPC 统计，并把推理部署到边缘设备验证实时性。</Text>
+        <Text style={{ fontSize: 17, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>路线：精度优先 → 实时部署 → 产线闭环</Text>
+      </Box>
+    </Box>
+    <Box style={{ height: 92, background: '#1E4FA8', padding: '12px 28px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 20, color: '#FFFFFF', fontWeight: 'bold', lineHeight: 1.45 }}>一句话总结：用完全开源的数据与成熟算法，做出了一套能训练、能检测、能统计、能复现的 PCB 缺陷检测系统。</Text>
+    </Box>
+  </Box>
+  <Box style={{ height: 78, width: '100%', padding: '10px 60px', flexDirection: 'row', justifyContent: 'space-between' }}>
+    <Text style={{ fontSize: 14, color: '#8B97A8' }}>PCB Defect Detection · YOLOv8</Text>
+    <Text style={{ fontSize: 14, color: '#1E4FA8' }}>19</Text>
+  </Box>
+</Slide>

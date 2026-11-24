@@ -1,0 +1,16 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0, flexDirection: 'row' }}>
+  <Box style={{ width: 520, height: '100%', background: '#F0F5FC', justifyContent: 'center', alignItems: 'center' }}>
+    <Text style={{ fontSize: 260, fontWeight: 'bold', color: '#D6E4F5', lineHeight: 1 }}>02</Text>
+  </Box>
+  <Box style={{ width: 760, height: '100%', padding: '120px 72px 80px 64px', flexDirection: 'column', justifyContent: 'center', gap: 30 }}>
+    <Text style={{ fontSize: 18, color: '#3D7BD9', letterSpacing: 4, fontWeight: 'bold' }}>CHAPTER TWO</Text>
+    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.2 }}>数据集与预处理</Text>
+    <Box style={{ height: 2, width: 320, background: '#1E4FA8' }} />
+    <Text style={{ fontSize: 22, color: '#4A5568', lineHeight: 1.6 }}>完全公开的 DeepPCB 数据集提供可信标注，规范化预处理保障小缺陷在复杂纹理下仍可被模型学习。</Text>
+    <Box style={{ flexDirection: 'column', gap: 14, marginTop: 12 }}>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· 六类缺陷与官方训练/测试划分</Text>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· 每类 50 张的选样与离线增强</Text>
+      <Text style={{ fontSize: 21, color: '#1A2230' }}>· ROI、降噪、对比度均衡与归一化</Text>
+    </Box>
+  </Box>
+</Slide>
