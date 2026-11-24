@@ -1,0 +1,24 @@
+{
+  "model": "YOLOv8n",
+  "device": "CPU",
+  "epochs": 30,
+  "batch": 16,
+  "imgsz": 320,
+  "lr0": 0.01,
+  "classes": [
+    "open",
+    "short",
+    "pinhole",
+    "burr",
+    "mousebite",
+    "spurious_copper"
+  ],
+  "test_metrics": {
+    "metrics/precision(B)": 0.8934214783545874,
+    "metrics/recall(B)": 0.7825347774466901,
+    "metrics/mAP50(B)": 0.876342042958279,
+    "metrics/mAP50-95(B)": 0.6024229098060156,
+    "fitness": 0.6024229098060156
+  },
+  "best_weights": "D:\\WorkBuddy\\2026-11-24-17-31-47\\models\\pcb_yolov8n\\weights\\best.pt"
+}

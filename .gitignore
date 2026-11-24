@@ -1,0 +1,13 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.cache
+
+# WorkBuddy 内部数据
+.workbuddy/
+
+# 原始数据仓库的 git 元数据（数据集图片与标注照常上传）
+data/DeepPCB_raw/.git/
+
+# Ultralytics 自动生成的临时推理输出
+runs/

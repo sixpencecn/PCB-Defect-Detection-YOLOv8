@@ -1,0 +1,59 @@
+{
+  "train": {
+    "images": 300,
+    "images_per_class": {
+      "open": 267,
+      "short": 229,
+      "pinhole": 263,
+      "burr": 250,
+      "mousebite": 260,
+      "spurious_copper": 260
+    },
+    "boxes_per_class": {
+      "open": 404,
+      "short": 322,
+      "pinhole": 310,
+      "burr": 362,
+      "mousebite": 423,
+      "spurious_copper": 321
+    }
+  },
+  "val": {
+    "images": 60,
+    "images_per_class": {
+      "open": 54,
+      "short": 48,
+      "pinhole": 54,
+      "burr": 53,
+      "mousebite": 51,
+      "spurious_copper": 53
+    },
+    "boxes_per_class": {
+      "open": 75,
+      "short": 64,
+      "pinhole": 65,
+      "burr": 69,
+      "mousebite": 73,
+      "spurious_copper": 64
+    }
+  },
+  "test": {
+    "images": 60,
+    "images_per_class": {
+      "open": 59,
+      "short": 52,
+      "pinhole": 53,
+      "burr": 45,
+      "mousebite": 48,
+      "spurious_copper": 51
+    },
+    "boxes_per_class": {
+      "open": 81,
+      "short": 61,
+      "pinhole": 56,
+      "burr": 62,
+      "mousebite": 62,
+      "spurious_copper": 59
+    }
+  }
+}

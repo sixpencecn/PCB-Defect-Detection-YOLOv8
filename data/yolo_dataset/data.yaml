@@ -1,0 +1,6 @@
+path: D:/WorkBuddy/2026-11-24-17-31-47/data/yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 6
+names: [open, short, pinhole, burr, mousebite, spurious_copper]
